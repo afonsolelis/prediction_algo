@@ -2,9 +2,8 @@
 data = [12, 32, 24, 23, 25, 30, 45, 23, 19, 28, 67]
 
 #receives an array of data and a period (from 0 to ...) 
-#to work with for future data
-#advice: never put more than 3 periods (year/month, day) 
-#because the model will tend to infinite
+#to work with
+
 def linear_regression_values(array, h)
 	n = array.size
 	puts "array size: #{n}"
